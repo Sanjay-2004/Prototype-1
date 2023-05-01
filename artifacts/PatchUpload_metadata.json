@@ -1,0 +1,158 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "time",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "pname",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "vnumber",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "fname",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "addPatch",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "time_rn",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "patch_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "version_number",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "file_name",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes",
+						"name": "patch",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendPatch",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "time_rn",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "patch_name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "version_number",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "file_name",
+								"type": "string"
+							},
+							{
+								"internalType": "bytes",
+								"name": "patch",
+								"type": "bytes"
+							}
+						],
+						"internalType": "struct Details",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Verification.sol": "PatchUpload"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Verification.sol": {
+			"keccak256": "0xb6fa642864a6b450b0bb618f935d26782aeb814e286937d4374240f3a89aa263",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5eaa7bdd2766ac44c54db140fdfabb67b3127774303c52dfaa9dd08b440d5f4d",
+				"dweb:/ipfs/QmZzztGqPm81nRFnbatQxKuFY32wfAbK6fxJ8xCwY8gx6C"
+			]
+		}
+	},
+	"version": 1
+}

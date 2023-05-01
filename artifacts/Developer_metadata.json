@@ -1,0 +1,152 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "from_admin",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "time",
+								"type": "string"
+							},
+							{
+								"components": [
+									{
+										"internalType": "string",
+										"name": "bug_name",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "bug_description",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "bug_priority",
+										"type": "string"
+									}
+								],
+								"internalType": "struct Bugs[]",
+								"name": "bugs_arr",
+								"type": "tuple[]"
+							},
+							{
+								"components": [
+									{
+										"internalType": "string",
+										"name": "feature_name",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "feature_description",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "feature_priority",
+										"type": "string"
+									}
+								],
+								"internalType": "struct Features[]",
+								"name": "features_arr",
+								"type": "tuple[]"
+							}
+						],
+						"internalType": "struct Requests",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "sent_req",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "time",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "time_rn",
+						"type": "string"
+					},
+					{
+						"internalType": "string[][]",
+						"name": "bugs",
+						"type": "string[][]"
+					},
+					{
+						"internalType": "string[][]",
+						"name": "features",
+						"type": "string[][]"
+					}
+				],
+				"name": "to_dev",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Developer.sol": "Developer"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Developer.sol": {
+			"keccak256": "0x39c106be843b6089dbe5c2250d231a1923f27b2a4ce319dd75abfa33ad17558d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4156fc0a8d18b74f6c797197a801cedb04fb299adec4f7da5b48d4dcb9b4aaae",
+				"dweb:/ipfs/QmNz69heQJfEGsuK1j1NL3XzsTi1NrHmtXnYRjYcMNyKCs"
+			]
+		}
+	},
+	"version": 1
+}

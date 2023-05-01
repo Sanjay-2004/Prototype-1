@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "dec",
+						"type": "string"
+					}
+				],
+				"name": "decision",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "whatisdec",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Confirmation.sol": "Statuslevel"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Confirmation.sol": {
+			"keccak256": "0xf70c783747c924c6c852b9dc7cfd655fb2f2a720aa2aa110ceb045fa404b2913",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://da7682879ff1c372055b22b7fd5bfdc18bbccba68014f664e24734e5f96ea4d2",
+				"dweb:/ipfs/QmXcaLSwQcK8R75UP6UeP6pJMmD9EXRbu1mThjVEzeYTeC"
+			]
+		}
+	},
+	"version": 1
+}
